@@ -14,15 +14,10 @@
             "UniLibDemo\\": "app/"
         }
     },
-    "repositories": [
-        {
-          "type": "path",
-          "url": "../UniLib"
-        }
-    ],
     "require": {
-        "rep98/unilib": "*"
+        "rep98/unilib": "^1.1"
     },
+    "minimum-stability": "stable",
     "scripts": {
         "start": "php -S localhost:8080",
         "test": "phpunit"  
